@@ -1,0 +1,9 @@
+<mujoco model="humanoid_ice">
+  <include file="humanoid.xml"/>
+
+  <worldbody>
+    <geom name="ground" type="plane" size="5 5 0.1"
+          rgba="0.6 0.9 1 1"
+          friction="0.01 0.001 0.00001"/>
+  </worldbody>
+</mujoco>

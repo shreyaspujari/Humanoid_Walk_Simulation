@@ -1,0 +1,9 @@
+<mujoco model="humanoid_flat">
+  <include file="humanoid.xml"/>
+
+  <worldbody>
+    <geom name="ground" type="plane" size="5 5 0.1"
+          rgba="0.3 0.3 0.3 1"
+          friction="3.0 0.2 0.1"/>
+  </worldbody>
+</mujoco>
